@@ -24,3 +24,7 @@ const name = 'Abdul Kader';
 const age = 23;
 const aboutMe = `My name is ${name} and my age is ${age}`;
 console.log(aboutMe);
+
+let x;
+console.log(x);
+
