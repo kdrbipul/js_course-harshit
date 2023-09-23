@@ -6,3 +6,8 @@ const firstName = 'Abdul Kader'
 
 firstName.toUpperCase()
 console.log(firstName.toUpperCase());
+
+const firstname = 'KADER'
+firstname.toLowerCase()
+console.log(firstname.toLowerCase()
+);
