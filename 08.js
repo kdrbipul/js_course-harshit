@@ -7,3 +7,8 @@ const firstName = 'Abdul Kader';
 
 const myAge = '22';
 console.log(typeof (+myAge));
+
+const first = 'Abdul';
+const last = 'Kader';
+const full = first + ' ' + last;
+console.log(full);
