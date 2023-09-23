@@ -35,10 +35,30 @@
 // console.log(typeof myNumber);
 // console.log(total);
 
-const num1 = 20;
-const num2 = 20;
-console.log(typeof (num1 == num2));
+// const num1 = 20;
+// const num2 = 20;
+// console.log(typeof (num1 == num2));
 
-const num3 = 20;
-const num4 = '34';
-console.log(num3 === num4);
+// const num3 = 20;
+// const num4 = '34';
+// console.log(num3 === num4);
+
+
+// not equal check
+
+const num1 = 8;
+const num2 = '8';
+console.log(num1 != num2);
+
+const num3 = 5;
+const num4 = '5'
+console.log(num3 !== num4);
+
+
+// if else statement
+let num = 18;
+if(num>=19){
+    console.log('user can play ddlc game');
+}else{
+    console.log('user can play mario gamme');
+}
