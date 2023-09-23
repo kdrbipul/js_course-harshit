@@ -71,3 +71,9 @@ if (num >= 10){
 }else{
     drink = 'tea';
 }
+console.log(drink);
+
+
+let num1 = 10;
+let drink2 = num1 >= 8 ? 'coffee' : 'milk';
+console.log(drink2);
