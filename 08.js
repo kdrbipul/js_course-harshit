@@ -46,19 +46,28 @@
 
 // not equal check
 
-const num1 = 8;
-const num2 = '8';
-console.log(num1 != num2);
+// const num1 = 8;
+// const num2 = '8';
+// console.log(num1 != num2);
 
-const num3 = 5;
-const num4 = '5'
-console.log(num3 !== num4);
+// const num3 = 5;
+// const num4 = '5'
+// console.log(num3 !== num4);
 
 
-// if else statement
-let num = 18;
-if(num>=19){
-    console.log('user can play ddlc game');
+// // if else statement
+// let num = 18;
+// if(num>=19){
+//     console.log('user can play ddlc game');
+// }else{
+//     console.log('user can play mario gamme');
+// }
+
+// ternary operator
+let num = 15;
+let drink;
+if (num >= 10){
+    drink = 'coffee';
 }else{
-    console.log('user can play mario gamme');
+    drink = 'tea';
 }
