@@ -18,3 +18,4 @@ const str2 = '23';
 const plus = str + str2;
 const plus2 = +str + +str2;
 console.log(plus, plus2);
+console.log(typeof plus2);
