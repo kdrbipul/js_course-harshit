@@ -28,3 +28,9 @@ console.log(aboutMe);
 let x;
 console.log(x);
 
+const myNumber = BigInt(12)
+const newMyNumber = 12n;
+const total = myNumber + newMyNumber;
+
+console.log(typeof myNumber);
+console.log(total);
